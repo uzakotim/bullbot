@@ -6,7 +6,7 @@ build/
 *.lo
 *.o
 *.obj
-
+*.DS_Store
 # Precompiled Headers
 *.gch
 *.pch
