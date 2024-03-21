@@ -1,0 +1,29 @@
+#ifndef NODE_LIBRARIES_H
+#define NODE_LIBRARIES_H
+#include <atomic>
+#include <chrono>
+#include <ctime>
+#include <cmath>
+#include <cstdlib>
+#include <colors.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <fstream>
+#include <iostream>
+#include <mutex>
+#include <opencv2/opencv.hpp>
+#include <opencv2/core.hpp>
+#include <opencv2/calib3d.hpp>
+#include <termios.h>
+#include <thread>
+#include <sstream>
+#include <string>
+#include <stdlib.h>
+#include <unistd.h>
+#include <vector>
+#include <boost/asio.hpp>
+#include <map>
+#include <Eigen/Dense>
+#include <zmq.hpp>
+#define frequency_to_milliseconds(frequency) 1000 / frequency
+#endif // NODE_LIBRARIES_H
